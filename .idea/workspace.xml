@@ -10,9 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea41d144-475d-4d53-a7e9-c28539278fc1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/domain/member.go" afterDir="false" />
-    </list>
+    <list default="true" id="ea41d144-475d-4d53-a7e9-c28539278fc1" name="Default Changelist" comment="modified modules info" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,6 +34,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="GO_FMT" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
@@ -80,29 +79,37 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="modified modules info" />
+    <option name="LAST_COMMIT_MESSAGE" value="modified modules info" />
+  </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1598286846399">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1598287084097">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598286846399" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1598286846399">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598287084097" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1598287084097">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598286846399" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1598286846399">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598287084097" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1598287084097">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598286846399" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1598286846399">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598287084097" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1598287084097">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598286846399" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598287084097" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1598286852151">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1598286852151" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1598287026432">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1598287026432" />
   </component>
 </project>
