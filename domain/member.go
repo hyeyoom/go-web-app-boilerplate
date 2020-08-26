@@ -10,6 +10,9 @@ type Member struct {
 	Password string
 }
 
+type MemberRepository interface {
+}
+
 func NewMember(Email string, PlainPassword string) *Member {
 	hashedPassword, err := bcrypt.GenerateFromPassword([]byte(PlainPassword), bcrypt.DefaultCost)
 	if err != nil {
