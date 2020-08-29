@@ -2,24 +2,27 @@ package domain
 
 import (
 	"fmt"
+	"github.com/hyeyoom/go-web-app-boilerplate/domain/base"
 	"golang.org/x/crypto/bcrypt"
 )
 
 type Member struct {
+	base.DefaultModel
 	Email    string
 	Password string
 }
 
 type MemberRepository interface {
+	Create(*Member) int64
 }
 
-func NewMember(Email string, PlainPassword string) *Member {
-	hashedPassword, err := bcrypt.GenerateFromPassword([]byte(PlainPassword), bcrypt.DefaultCost)
+func NewMember(email string, plainPassword string) *Member {
+	hashedPassword, err := bcrypt.GenerateFromPassword([]byte(plainPassword), bcrypt.DefaultCost)
 	if err != nil {
 		fmt.Print(err)
 		return nil
 	}
-	return &Member{Email: Email, Password: string(hashedPassword)}
+	return &Member{Email: email, Password: string(hashedPassword)}
 }
 
 func (m *Member) IsCredentialVerified(password string) bool {
