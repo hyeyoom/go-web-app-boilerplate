@@ -6,3 +6,7 @@ type Product struct {
 	base.DefaultModel
 	Name string
 }
+
+type ProductRepository interface {
+	Create(*Product) int64
+}

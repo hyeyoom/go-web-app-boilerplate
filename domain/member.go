@@ -13,7 +13,7 @@ type Member struct {
 }
 
 type MemberRepository interface {
-	Create(*Member) int64
+	Create(*Member)
 }
 
 func NewMember(email string, plainPassword string) *Member {
