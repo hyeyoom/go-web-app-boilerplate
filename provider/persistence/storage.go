@@ -36,5 +36,8 @@ func (sf *storageFactory) NewMemberRepository() domain.MemberRepository {
 }
 
 func (sf *storageFactory) NewProductRepository() domain.ProductRepository {
-	return nil
+	productRepositoryOnce.Do(func() {
+		productRepositoryInstance = NewProductRepository(sf.db)
+	})
+	return productRepositoryInstance
 }

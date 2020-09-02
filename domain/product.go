@@ -8,5 +8,5 @@ type Product struct {
 }
 
 type ProductRepository interface {
-	Create(*Product) int64
+	Create(*Product)
 }
